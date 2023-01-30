@@ -52,8 +52,6 @@ tables:
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> SQL , PostgreSQL
-
 <details>
 <summary>Database</summary>
   <ul>
@@ -106,7 +104,7 @@ https://github.com/Alabi12/vet_clinic
 -Type git clone in the terminal, paste the URL you copied earlier, and press “enter” to create your local clone.
 
 ```
-$ git clone {repository URL}
+$ git clone {https://github.com/Alabi12/vet_clinic}
 ```
 
 # Install Dependencies(with following Command)
@@ -139,47 +137,6 @@ Clone this repository to your desired folder:
     _cd PATH_
     
     _git clone https://github.com/Alabi12/vet_clinic.git
-   
-   _cd PATH_
-   
-   _npm install_
-      
-   _npm run build_
-   
-   _npm start_
-
-### Install
-
-Install this project with:
-
-```sh
-  npm install
-```
-
-### Usage
-
-To run the project, execute the following command:
-
-```sh
-  npm start
-```
-
-
-### Run tests
-
-To run tests, run the following command:
-
-```sh
-  npm test
-```
-
-### Deployment <a name="triangular_flag_on_post-deployment"></a>
-
-You can deploy this project using:
-```sh
-  npm start
-```
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -201,7 +158,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Implement like a movie and save it in a list**
+- [ ] **Create new tables based on digrames**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -234,7 +191,9 @@ Give a ⭐️ if you like this project!
 <!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
+How to connect to the DB using psql?
 
+Run "\c db_name"
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
