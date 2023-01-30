@@ -65,3 +65,8 @@ relationship, it should also keep track of the date of the visit.*/
 create table visits (animals_id INT, vets_id INT, date_of_visit date);
 ALTER TABLE visits ADD CONSTRAINT animals_fkey FOREIGN KEY (animals_id) REFERENCES animals(id);
 ALTER TABLE visits ADD CONSTRAINT vets_fkey FOREIGN KEY (vets_id) REFERENCES vets(id);
+
+---PERFORMANCE IMPROVEMENT---
+CREATE index animals_id_index ON visits (animals_id);
+CREATE INDEX vets_id_index ON visits (vets_id);
+CREATE INDEX owners_email_index ON owners (id);
